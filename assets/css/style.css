@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+#cover {
+	background: url(../image/InfinityWarAvengers.jpg) center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	}	
+
+/*h1, p{
+	color: white;
+}*/
+
+#cover-caption {
+	width: 100%;
+}
+
+
+.about{
+	margin: 5rem 0;
+}
+ img{
+ 	max-width: 100%;
+
+ }
+
+ .section-content {
+ 	padding: 5rem 0;
+ }
+
+ .card {
+ 	padding: 1rem;
+ }
+
+ .card img{
+ 	height: 275px;
+ 	border-radius: 5px;
+ } 
+
+ #about {
+ 	background: url(../image/lg1.png) center center no-repeat;
+ 	background-size: cover;
+ }
+
+ .about-text {
+ 	background: rgba(0,0,0,0.8);
+ 	color: white;
+ 	padding: 1.875rem;
+ 	border-radius: 5px;
+ }
+
+
+/*footer .container-fluid {
+	background: rgba(0,0,0,0.8);
+	color: white;
+}
+*/
+
+#footer-main {
+	background: #222;
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+}
+
+#footer-main a {
+	list-style: none;
+	color: white;
+}
+
+ input[type="text"] {
+		margin: 5px;
+
+
+	}
+
+@media(max-width: 500px){
+	#cover-caption h1 {
+		font-family: italic;
+	}
+}
+
+/*@media(max-width: 499px){
+ input[type="text"] {
+		margin-bottom: 10px;
+
+
+	}
+}
+*/
+@media(max-width: 700px){
+ #cover input{
+		font-size: 1.00rem;
+	}
+
+ #cover button{
+		font-size: 1.00rem;
+
+
+	}
+}
+
